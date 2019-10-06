@@ -23,13 +23,10 @@ class C: public B {
 };
 
 int main () {
-    // Make instance of class C
     C subclass;
-    // Read the values of a,b and c
     cout<<"\nEnter the value of a: ";  cin>>subclass.a;
     cout<<"Enter the value of b: ";  cin>>subclass.b;
     cout<<"Enter the value of c: ";  cin>>subclass.c;
-    // Print the values
     cout<<"\nThe value of a is: "<<subclass.a;
     cout<<"\nThe value of b is: "<<subclass.b;
     cout<<"\nThe value of c is: "<<subclass.c;
