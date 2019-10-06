@@ -1,10 +1,8 @@
-/* ================================================== */
-/* ===== Function to swap values using pointers ===== */
-/* ================================================== */
 #include<stdio.h>
 void swap(int *,int *);
 
-int main() {
+int main() 
+{
     int a,b;
     printf("Enter the first number: ");
     scanf("%d",&a);
@@ -15,8 +13,8 @@ int main() {
     printf("\nAfter SWAP: a=%d, b=%d",a,b);
     return 0;
  }
-
-void swap(int *x, int *y) {
+void swap(int *x, int *y) 
+{
     int temp;
     temp = *x;
     *x = *y;
